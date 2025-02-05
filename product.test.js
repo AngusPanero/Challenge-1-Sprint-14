@@ -22,7 +22,7 @@ test("Comprobar Actualización", () => {
     expect(update).toEqual({id: 1, nombre: "sal", precio: 3})
 })
 
-/* test("Comprobar Remove", () => {
-    const indice = removeProduct(2)
+test("Comprobar Remove", () => {
+    const indice = removeProduct(1)
     expect(indice).toBe(undefined)
-}) */
+})
