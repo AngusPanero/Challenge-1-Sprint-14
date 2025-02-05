@@ -6,8 +6,6 @@
 -5 getProduct(id): devuelve un producto por su id.
 -6 updateProduct(id, name, price): actualiza un producto por su id. */
 
-const { clear } = require("console");
-
 let products = []; // declaramos una variable products vacío
 
 // 1
